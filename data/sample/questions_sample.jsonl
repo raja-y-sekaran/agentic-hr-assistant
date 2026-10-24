@@ -1,0 +1,6 @@
+{"question": "How many days of annual leave do I get each year?", "section": "4.1", "route": "rag", "tool": null, "args": null, "must_contain": ["21"]}
+{"question": "How fast does vacation build up per month?", "section": "4.1", "route": "rag", "tool": null, "args": null, "must_contain": ["1.75"]}
+{"question": "Can I take vacation while I'm still on probation?", "section": "4.2", "route": "rag", "tool": null, "args": null, "must_contain": ["probation"]}
+{"question": "How far ahead do I need to apply for annual leave?", "section": "4.2", "route": "rag", "tool": null, "args": null, "must_contain": ["7"]}
+{"question": "What happens to unused vacation days at year end?", "section": "4.3", "route": "rag", "tool": null, "args": null, "must_contain": ["10"]}
+{"question": "How many paid sick days are there?", "section": "5", "route": "rag", "tool": null, "args": null, "must_contain": ["12"]}

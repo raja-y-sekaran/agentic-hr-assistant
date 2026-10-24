@@ -1,0 +1,9 @@
+strategy,chunks,median_chars_returned,hit_at_1,hit_at_k,mrr
+recursive,15,260,0.806,0.972,0.889
+sentence_groups,26,168,0.806,0.972,0.875
+parent_child,44,252,0.667,0.972,0.796
+semantic,46,65,0.611,0.972,0.769
+fixed_size,11,400,0.833,0.944,0.889
+sliding_window,14,400,0.833,0.944,0.875
+markdown_heading,19,247,0.611,0.944,0.769
+paragraph,36,40,0.5,0.944,0.685

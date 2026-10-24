@@ -1,0 +1,5 @@
+{
+  "dependencies": ["."],
+  "graphs": {"hr_assistant": "./src/agents/langgraph_agent.py:make_graph"},
+  "env": ".env"
+}

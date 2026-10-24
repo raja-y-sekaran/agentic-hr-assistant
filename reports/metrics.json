@@ -1,0 +1,97 @@
+{
+  "handbook": {
+    "sections": 19,
+    "words": 697
+  },
+  "questions": {
+    "total": 40,
+    "by_route": {
+      "rag": 24,
+      "tool": 12,
+      "out_of_scope": 2,
+      "blocked": 2
+    }
+  },
+  "chunking": [
+    {
+      "strategy": "recursive",
+      "chunks": 15,
+      "median_chars_returned": 260,
+      "hit_at_1": 0.806,
+      "hit_at_k": 0.972,
+      "mrr": 0.889
+    },
+    {
+      "strategy": "sentence_groups",
+      "chunks": 26,
+      "median_chars_returned": 168,
+      "hit_at_1": 0.806,
+      "hit_at_k": 0.972,
+      "mrr": 0.875
+    },
+    {
+      "strategy": "parent_child",
+      "chunks": 44,
+      "median_chars_returned": 252,
+      "hit_at_1": 0.667,
+      "hit_at_k": 0.972,
+      "mrr": 0.796
+    },
+    {
+      "strategy": "semantic",
+      "chunks": 46,
+      "median_chars_returned": 65,
+      "hit_at_1": 0.611,
+      "hit_at_k": 0.972,
+      "mrr": 0.769
+    },
+    {
+      "strategy": "fixed_size",
+      "chunks": 11,
+      "median_chars_returned": 400,
+      "hit_at_1": 0.833,
+      "hit_at_k": 0.944,
+      "mrr": 0.889
+    },
+    {
+      "strategy": "sliding_window",
+      "chunks": 14,
+      "median_chars_returned": 400,
+      "hit_at_1": 0.833,
+      "hit_at_k": 0.944,
+      "mrr": 0.875
+    },
+    {
+      "strategy": "markdown_heading",
+      "chunks": 19,
+      "median_chars_returned": 247,
+      "hit_at_1": 0.611,
+      "hit_at_k": 0.944,
+      "mrr": 0.769
+    },
+    {
+      "strategy": "paragraph",
+      "chunks": 36,
+      "median_chars_returned": 40,
+      "hit_at_1": 0.5,
+      "hit_at_k": 0.944,
+      "mrr": 0.685
+    }
+  ],
+  "tools": {
+    "questions": 12,
+    "correct": 12,
+    "cites_gold_section": 12
+  },
+  "security": {
+    "attack_messages": 14,
+    "attack_messages_blocked": 14,
+    "malformed_tool_calls": 12,
+    "malformed_tool_calls_rejected": 12,
+    "legitimate_questions": 38,
+    "legitimate_questions_blocked": 0,
+    "false_blocks": [],
+    "question_set_blocked_items": 2,
+    "question_set_blocked_total": 2
+  }
+}

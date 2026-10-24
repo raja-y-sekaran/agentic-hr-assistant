@@ -1,0 +1,3 @@
+# Multi-agent versions (heavier installs). pip install -r requirements.txt -r requirements-multiagent.txt
+crewai>=1.0
+agno>=2.0

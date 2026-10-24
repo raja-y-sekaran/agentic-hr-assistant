@@ -1,0 +1,9 @@
+{
+  "system": "HR assistant for a fictional company, built four ways (LangChain, LangGraph, CrewAI, Agno) on one shared core",
+  "llm": "OpenAI chat model set by HR_LLM_MODEL (default gpt-4.1-mini); no model weights are trained or stored",
+  "retrieval": "handbook chunked with the recursive strategy (best MRR in reports/chunking_comparison.csv), TF-IDF search",
+  "tools": "8 deterministic HR calculations with pydantic-validated inputs (src/core/hr_tools.py)",
+  "safety": "input guard, tool-call allowlist and schema validation, HRAnswer output schema with citation and PII checks (src/security/guard.py)",
+  "evaluation": "offline: tool correctness, chunking comparison, red-team set; live: python main.py --live <framework> (needs an API key)",
+  "not_for": "real HR decisions; the handbook and every policy number are invented"
+}

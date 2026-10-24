@@ -1,0 +1,30 @@
+{
+  "company": "Meridian Plant Services (fictional)",
+  "handbook_version": "2026.1",
+  "leave": {
+    "annual_days_per_year": 21,
+    "accrual_days_per_month": 1.75,
+    "sick_days_per_year": 12,
+    "casual_days_per_year": 6,
+    "casual_max_consecutive_days": 2,
+    "annual_min_notice_days": 7,
+    "annual_max_consecutive_days": 15,
+    "probation_annual_leave_allowed": false,
+    "sick_certificate_after_days": 2,
+    "carry_forward_max_days": 10
+  },
+  "probation": {"months": 6, "extension_max_months": 3},
+  "payroll": {"cutoff_day": 20, "pay_day": "last working day of the month"},
+  "reimbursement": {
+    "submit_within_days": 30,
+    "requires_approved_travel": true,
+    "max_claim_without_director": 2500
+  },
+  "remote_allowance": {"office": 0, "hybrid": 150, "remote": 300},
+  "travel_daily_allowance": {
+    "domestic": {"1": 60, "2": 80, "3": 110, "4": 150},
+    "international": {"1": 120, "2": 160, "3": 220, "4": 300}
+  },
+  "notice_period_days": {"1": 30, "2": 30, "3": 60, "4": 90},
+  "currency": "USD"
+}
