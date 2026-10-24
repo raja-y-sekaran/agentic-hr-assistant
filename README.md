@@ -2,7 +2,7 @@
 
 **An HR assistant that answers employees' policy questions from the handbook and runs the HR calculations (leave checks, probation dates, payroll cut-off, expense claims, allowances, notice periods), built four ways (LangChain, LangGraph, CrewAI and Agno) on one shared, tested core with a security layer between the LLM and the code.**
 
-![CI](https://github.com/rajapune-create/agentic-hr-assistant/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/raja-y-sekaran/agentic-hr-assistant/actions/workflows/ci.yml/badge.svg)
 
 ![Chunking strategies compared](reports/figures/chunking_strategies.png)
 
