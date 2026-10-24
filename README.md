@@ -182,4 +182,6 @@ langgraph dev                                   # optional: open the graph in La
 
 Built with Claude Code; design, requirements and validation by Raja (Rajayoganandha Sekaran).
 
+Contact: instruraja@yahoo.com
+
 Licence: MIT.
